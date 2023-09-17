@@ -13,3 +13,7 @@ function handleHeightInput(event){
     document.getElementById("input-number-height").value=event.target.value;
 }
 
+function handleInputChange(event){
+    document.getElementByNames("event.target.name").value=event.target.value;
+}
+}
