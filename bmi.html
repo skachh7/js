@@ -9,9 +9,9 @@
 <body>
     <form>
         <label for="weight">Weight:</label>
-        <input class="input-weight"id="input-number-weight" type="number" value=0 name="weight"><br><br>
+        <input class="input-weight"id="input-number-weight" onchange="handleInputChange(event)" type="number" value=0 name="weight"><br><br>
         <label for="height">Height:</label>
-        <input class="input-height" id="input-number-height" type="number" value=0 name="height"><br><br>
+        <input class="input-height" id="input-number-height" onchange="handleInputChange(event)" type="number" value=0 name="height"><br><br>
         <!-- onclick is added so that whenever we click on Calculate then it will display result. -->
         <button id="button-calculate" onclick="calculateBmi()">Calculate</button><br><br> 
       
